@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.lena.exifchecker.MainFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button_image_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画像を選択"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:id="@+id/button_take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="写真を撮る"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</FrameLayout>
